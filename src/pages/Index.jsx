@@ -1,6 +1,7 @@
 // Update this page (the content is just a fallback if you fail to update the page)
 
 import { Button } from "@/components/ui/button";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -17,11 +18,7 @@ const Index = () => {
         <Button>Get Started</Button>
       </main>
 
-      <footer className="bg-muted py-4">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 My Application. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
